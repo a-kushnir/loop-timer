@@ -3,7 +3,7 @@ using System.Configuration;
 using System.Drawing;
 using System.Globalization;
 
-namespace Timer72
+namespace LoopTimer
 {
     public class AppSettings
     {

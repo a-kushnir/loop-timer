@@ -1,4 +1,4 @@
-﻿namespace Timer72
+﻿namespace LoopTimer
 {
     partial class MainForm
     {
@@ -65,7 +65,7 @@
             // 
             this.niMain.ContextMenuStrip = this.cnsMain;
             this.niMain.Icon = ((System.Drawing.Icon)(resources.GetObject("niMain.Icon")));
-            this.niMain.Text = "Timer 72";
+            this.niMain.Text = "Loop Timer";
             this.niMain.Visible = true;
             // 
             // cnsMain
@@ -80,39 +80,39 @@
             this.toolStripMenuItem2,
             this.exitToolStripMenuItem});
             this.cnsMain.Name = "contextMenuStrip1";
-            this.cnsMain.Size = new System.Drawing.Size(181, 170);
+            this.cnsMain.Size = new System.Drawing.Size(135, 148);
             this.cnsMain.Opening += new System.ComponentModel.CancelEventHandler(this.ContextMenuStrip1_Opening);
             // 
             // timer72ToolStripMenuItem
             // 
             this.timer72ToolStripMenuItem.Enabled = false;
             this.timer72ToolStripMenuItem.Name = "timer72ToolStripMenuItem";
-            this.timer72ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.timer72ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.timer72ToolStripMenuItem.Text = "Loop Timer";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(131, 6);
             // 
             // hideToolStripMenuItem
             // 
             this.hideToolStripMenuItem.Name = "hideToolStripMenuItem";
-            this.hideToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hideToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.hideToolStripMenuItem.Text = "Hide";
             this.hideToolStripMenuItem.Click += new System.EventHandler(this.HideToolStripMenuItem_Click);
             // 
             // showToolStripMenuItem
             // 
             this.showToolStripMenuItem.Name = "showToolStripMenuItem";
-            this.showToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.showToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.showToolStripMenuItem.Text = "Show";
             this.showToolStripMenuItem.Click += new System.EventHandler(this.ShowToolStripMenuItem_Click);
             // 
             // resetToolStripMenuItem
             // 
             this.resetToolStripMenuItem.Name = "resetToolStripMenuItem";
-            this.resetToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.resetToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.resetToolStripMenuItem.Text = "Reset";
             this.resetToolStripMenuItem.Click += new System.EventHandler(this.ResetToolStripMenuItem_Click);
             // 
@@ -121,7 +121,7 @@
             this.settingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.autorunToolStripMenuItem});
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.settingsToolStripMenuItem.Text = "Settings";
             // 
             // autorunToolStripMenuItem
@@ -135,12 +135,12 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(131, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
@@ -148,7 +148,7 @@
             // 
             this.buttonReset.FlatAppearance.BorderSize = 0;
             this.buttonReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonReset.Image = global::Timer72.Properties.Resources.reset;
+            this.buttonReset.Image = global::LoopTimer.Properties.Resources.reset;
             this.buttonReset.Location = new System.Drawing.Point(128, 16);
             this.buttonReset.Name = "buttonReset";
             this.buttonReset.Size = new System.Drawing.Size(36, 36);

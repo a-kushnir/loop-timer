@@ -1,7 +1,7 @@
 ﻿using System.Windows.Forms;
 using Microsoft.Win32;
 
-namespace Timer72
+namespace LoopTimer
 {
     public static class Autorun
     {

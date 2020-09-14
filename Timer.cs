@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Diagnostics.Eventing.Reader;
 using FormTimer = System.Windows.Forms.Timer;
 
-namespace Timer72
+namespace LoopTimer
 {
     public class Timer
     {

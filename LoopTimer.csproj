@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2E6FE08C-E160-4ECA-879B-85DB3C53DA3A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Timer72</RootNamespace>
-    <AssemblyName>Timer72</AssemblyName>
+    <RootNamespace>LoopTimer</RootNamespace>
+    <AssemblyName>LoopTimer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,6 +53,11 @@
     <Compile Include="Animation.cs" />
     <Compile Include="Autorun.cs" />
     <Compile Include="AppSettings.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Timer.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -76,11 +81,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -88,7 +88,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="reset.png" />
+    <None Include="Assets\reset.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.ico" />

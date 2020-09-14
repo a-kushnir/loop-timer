@@ -1,7 +1,7 @@
 ﻿using System;
 using FormTimer = System.Windows.Forms.Timer;
 
-namespace Timer72
+namespace LoopTimer
 {
     public class Animation
     {

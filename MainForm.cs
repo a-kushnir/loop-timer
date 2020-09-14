@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Timer72
+namespace LoopTimer
 {
     public partial class MainForm : Form
     {
