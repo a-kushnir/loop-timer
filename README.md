@@ -5,6 +5,7 @@
 [![Platform](https://img.shields.io/badge/platform-windows-blue)](https://img.shields.io/badge/platform-windows-blue)
 [![Language](https://img.shields.io/badge/language-C%23-orange)](https://img.shields.io/badge/language-C%23-orange)
 [![.NET Framework](https://img.shields.io/badge/.net%20framework-4.7.2-blue)](https://img.shields.io/badge/.net%20framework-4.7.2-blue)
+[![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2015-blue)](https://img.shields.io/badge/Visual%20Studio-2015-blue)
 [![License](https://img.shields.io/github/license/a-kushnir/x-stocks)](https://img.shields.io/github/license/a-kushnir/x-stocks)
 
 Loop Timer is a Digital countdown timer with a repeat option for yoga, physical training, or another usage.
